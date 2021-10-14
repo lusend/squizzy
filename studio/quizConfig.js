@@ -1,7 +1,7 @@
 export default {
   localWebHost: 'http://localhost:3000', // default Vue port
   localApiHost: 'http://localhost:3000', // default Now API port
-  remoteWebHost: 'lusend-games.vercel.app',
+  remoteWebHost: 'https://lusend-games.vercel.app',
   match: {
     correctAnswerScore: 100,
     firstAnswerScore: 50

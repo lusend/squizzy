@@ -268,9 +268,7 @@ class Match extends React.Component {
             </Button>
           )}
         </div>
-        {isOngoing && !isFinalQuestionCompleted && !isCurrentQuestionOpen && (
-          <MediaPlayer match={match} />
-        )}
+        {isOngoing && <MediaPlayer match={match} />}
       </div>
     )
   }
